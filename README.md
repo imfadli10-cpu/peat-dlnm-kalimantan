@@ -1,6 +1,6 @@
 # Peatland and lagged drought effects on fire activity in Kalimantan
 
-R code for the paper *"Peatland modifies the magnitude and persistence of lagged drought effects on fire activity: a Bayesian spatio-temporal distributed lag non-linear model for Kalimantan, Indonesia"* (F. Ardiansyah, submitted to *Stochastic Environmental Research and Risk Assessment*).
+R code for the paper *"Peatland amplifies and prolongs lagged drought effects on tropical fire activity: a Bayesian distributed lag non-linear model"* (F. Ardiansyah, submitted for publication).
 
 ## Data (all publicly available, downloaded by the scripts or manually)
 

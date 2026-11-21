@@ -75,7 +75,7 @@ m2 <- tryCatch(
        control.predictor = list(compute = TRUE, link = 1),
        verbose = FALSE),
   error = function(e) { message("ERROR INLA: ", conditionMessage(e)); NULL })
-if (is.null(m2)) stop("INLA gagal. Kirim pesan ERROR di atas ke Claude.")
+if (is.null(m2)) stop("INLA gagal. Lihat pesan ERROR di atas.")
 durasi <- round(as.numeric(difftime(Sys.time(), t0, units = "mins")), 1)
 
 # ---- 3. Ringkasan ------------------------------------------------------

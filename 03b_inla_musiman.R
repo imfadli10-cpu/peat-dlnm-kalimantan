@@ -76,7 +76,7 @@ jalan_inla <- function(nama) {
          control.predictor = list(compute = TRUE, link = 1),
          verbose = FALSE),
     error = function(e) { message("ERROR INLA (", nama, "): ", conditionMessage(e)); NULL })
-  if (is.null(m)) stop("INLA gagal untuk ", nama, ". Kirim pesan ERROR di atas ke Claude.")
+  if (is.null(m)) stop("INLA gagal untuk ", nama, ". Lihat pesan ERROR di atas.")
   m$durasi_menit <- round(as.numeric(difftime(Sys.time(), t0, units = "mins")), 1)
   m
 }

@@ -134,7 +134,7 @@ jalan <- function(nama) {
 hasil <- lapply(setNames(names(varian), names(varian)), jalan)
 gagal <- names(hasil)[sapply(hasil, is.null)]
 hasil <- Filter(Negate(is.null), hasil)
-if (!length(hasil)) stop("Semua varian gagal. Kirim pesan ERROR di atas ke Claude.")
+if (!length(hasil)) stop("Semua varian gagal. Lihat pesan ERROR di atas.")
 if (length(gagal)) catat("PERHATIAN: varian gagal & dilewati:", paste(gagal, collapse = ", "))
 
 # ---- 2. Tabel ----------------------------------------------------------
